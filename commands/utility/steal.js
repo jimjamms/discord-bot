@@ -27,9 +27,10 @@ module.exports = {
         await wait(2_000);
         await interaction.editReply("OK GO.");
         await wait(3_000);
-        var msg =  await interaction.followUp("I. AM. THE. BANDIT. QUEEN");
-        await wait(2_000);
-        await interaction.deleteReply(msg);
+        await interaction.followUp("I. AM. THE. BANDIT. QUEEN");
+        //var msg =  await interaction.followUp("I. AM. THE. BANDIT. QUEEN");
+        //await wait(2_000);
+        //await interaction.deleteReply(msg);
         await interaction.deleteReply();
     },
 };

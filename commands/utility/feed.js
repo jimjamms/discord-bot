@@ -14,6 +14,6 @@ module.exports = {
 		const rat = interaction.options.getUser('user');
 		await interaction.deferReply();
 		await wait(3_000);
-		await interaction.editReply(`TIME TO EAT! ${interaction.user} fed ${rat}`);
+		await interaction.editReply(`TIME TO EAT! ${interaction.user} FED ${rat} A PRETZEL.`);
 	},
 };
